@@ -1,5 +1,8 @@
 def summ(x, y):
     return x + y
+    # if not isinstance(x, (int, float)) or not isinstance(y, (int, float)):
+    #     raise TypeError("Аргументы должны быть числами")
+    # return x + y
 
 def subtract(x, y):
     return x - y
